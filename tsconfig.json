@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "declaration": true,
+      "declarationDir": "./dist/declaration",
+      "experimentalDecorators": true,
+      "sourceMap": false,
+      "rootDir": ".",
+      "outDir": "dist",
+      "resolveJsonModule": true,
+      "lib": ["es2017", "dom"],
+    },
+    "exclude": ["node_modules", "dist", "**/tests", "**/examples", "**/*.spec.ts"]
+  }

@@ -1,0 +1,42 @@
+{
+  "name": "typescript-webpack-template",
+  "version": "1.0.0",
+  "description": "Стартовый шаблон создания проектов на TypeScript",
+  "main": "./dist/bundle.js",
+  "typings": "./declaration/index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.dev.js",
+    "build": "webpack --config ./webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DehoffE/typescript-webpack-template.git"
+  },
+  "author": "Egor Dekhov <dehoff.egor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DehoffE/typescript-webpack-template/issues"
+  },
+  "homepage": "https://github.com/DehoffE/typescript-webpack-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "alias-resolve-loader": "^2.0.4",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^4.1.0",
+    "sass-loader": "^10.1.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "ts-loader": "^8.0.13",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
